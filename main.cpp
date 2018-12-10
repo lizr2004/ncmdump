@@ -198,7 +198,7 @@ process_file(const char *path) {
 
 	char music_filename[1024];
 	memset(music_filename, 0, 1024);
-	n = sprintf(music_filename, "%s.%s", music_name, format);
+	n = sprintf(music_filename, "%s - %s.%s", artist, music_name, format);
 
 	// filter special char
 
